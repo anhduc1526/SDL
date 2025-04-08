@@ -1,0 +1,54 @@
+# depslib dependency file v1.0
+1744110795 source:e:\uet\hk2\apsdl\apsdl\graphics.cpp
+	"graphics.h"
+
+1744111042 source:e:\uet\hk2\apsdl\apsdl\main.cpp
+	"gameplay.h"
+
+1744110390 e:\uet\hk2\apsdl\apsdl\graphics.h
+	"defs.h"
+
+1744110137 e:\uet\hk2\apsdl\apsdl\defs.h
+	<string>
+	<vector>
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_mixer.h>
+
+1744106761 source:e:\uet\hk2\apsdl\apsdl\pipe.cpp
+	"pipe.h"
+
+1744110844 e:\uet\hk2\apsdl\apsdl\pipe.h
+	"defs.h"
+	"graphics.h"
+
+1744108355 source:e:\uet\hk2\apsdl\apsdl\bird.cpp
+	"bird.h"
+
+1744111279 e:\uet\hk2\apsdl\apsdl\bird.h
+	"defs.h"
+	"graphics.h"
+
+1744028357 source:e:\uet\hk2\apsdl\apsdl\game.cpp
+	"game.h"
+
+1744024252 e:\uet\hk2\apsdl\apsdl\game.h
+	<vector>
+	<string.h>
+	<fstream>
+	"defs.h"
+	"bird.h"
+	"pipe.h"
+
+1744111224 source:e:\uet\hk2\apsdl\apsdl\gameplay.cpp
+	"gameplay.h"
+
+1744111224 e:\uet\hk2\apsdl\apsdl\gameplay.h
+	<iostream>
+	<vector>
+	<string.h>
+	<fstream>
+	"defs.h"
+	"bird.h"
+	"pipe.h"
+
