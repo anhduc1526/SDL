@@ -15,14 +15,14 @@
 	<SDL_image.h>
 	<SDL_mixer.h>
 
-1744106761 source:e:\uet\hk2\apsdl\apsdl\pipe.cpp
+1744160178 source:e:\uet\hk2\apsdl\apsdl\pipe.cpp
 	"pipe.h"
 
 1744110844 e:\uet\hk2\apsdl\apsdl\pipe.h
 	"defs.h"
 	"graphics.h"
 
-1744108355 source:e:\uet\hk2\apsdl\apsdl\bird.cpp
+1744165830 source:e:\uet\hk2\apsdl\apsdl\bird.cpp
 	"bird.h"
 
 1744111279 e:\uet\hk2\apsdl\apsdl\bird.h
@@ -40,7 +40,7 @@
 	"bird.h"
 	"pipe.h"
 
-1744111224 source:e:\uet\hk2\apsdl\apsdl\gameplay.cpp
+1744161381 source:e:\uet\hk2\apsdl\apsdl\gameplay.cpp
 	"gameplay.h"
 
 1744111224 e:\uet\hk2\apsdl\apsdl\gameplay.h

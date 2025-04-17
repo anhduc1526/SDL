@@ -8,9 +8,10 @@ void Bird::load(Graphics& graphics) {
 
 void Bird::render(const Bird& bird, Graphics& graphics) {
     ++id;
-    if(id % 60 <= 20)
+    if (id >= 60) id -= 60;
+    if(id <= 20)
         graphics.renderTextureEx(Up, bird.x, bird.y, angle);
-    else if (id % 60 <= 40)
+    else if (id <= 40)
         graphics.renderTextureEx(Mid, bird.x, bird.y, angle);
     else
         graphics.renderTextureEx(Down, bird.x, bird.y, angle);
@@ -33,7 +34,7 @@ void Bird::move() {
 }
 
 void Bird::up() {
-    dy = -5;
+    dy = -10;
     angle = -45;
     gravity = 1;
 }
